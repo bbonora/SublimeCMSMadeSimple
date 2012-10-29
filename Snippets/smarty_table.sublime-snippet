@@ -1,0 +1,39 @@
+<snippet>
+	<content><![CDATA[
+<table cellspacing="0" class="pagetable">
+	<thead>
+		<tr>
+			<th>${1:Heading 1}</th>
+			<th>${2:Heading 2}</th>
+			<th>${3:Heading 3}</th>
+			<th>${4:Heading 4}</th>
+			<th>${5:Heading 5}</th>
+			<th class="pageicon">&nbsp;</th>
+			<th class="pageicon">&nbsp;</th>
+			<th class="pageicon">&nbsp;</th>
+			<th class="pageicon">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		{\$foreach from=\$${6:items} key=${7:key} item=${8:entry}}
+		{cycle values="row1,row2" assign='rowclass'}
+		<tr class="{\$rowclass}">
+			<td>{\$${8:entry}->${9:one}}</td>
+			<td>{\$${8:entry}->${10:two}}</td>
+			<td>{\$${8:entry}->${11:three}}</td>
+			<td>{\$${8:entry}->${12:four}}</td>
+			<td>{\$${8:entry}->${13:five}}</td>
+			<td>{\$${8:entry}->${14:six}}</td>
+			<td>{\$${8:entry}->${15:seven}}</td>
+			<td>{\$${8:entry}->${16:eight}}</td>
+			<td>{\$${8:entry}->${17:nine}}</td>
+		</tr>
+		{/foreach}
+	</tbody>
+</table>
+
+]]></content>
+	<description>table stub</description>
+	<tabTrigger>smarty_table</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

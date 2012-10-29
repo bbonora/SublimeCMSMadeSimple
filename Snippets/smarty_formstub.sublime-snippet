@@ -13,6 +13,6 @@
 {\$${7:endform}}
 ]]></content>
 	<description>form stub</description>
-	<tabTrigger>smarty_formstub</tabTrigger>
+	<tabTrigger>smarty_form</tabTrigger>
 	<!-- <scope>source.php</scope> -->
 </snippet>

@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-{foreach from=${1:\\$items} key=${2:key} item=${3:entry} name=${4:name}}
-	${5:\\$entry->item}}
-	${0:}
+{foreach from=${1:\$items} key=${2:key} item=${3:entry} name=${4:name}}
+	{${5:\$entry}->${6:item}}
+	$0
 {/foreach}
 ]]></content>
 	<description>smarty foreach loop</description>
