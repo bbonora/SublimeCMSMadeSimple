@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+${1:\$db}->Execute(${2:\$query},array(${3:value},${4:value}${0:}));
+]]></content>
+	<description>get db Execute(query,params)</description>
+	<tabTrigger>cms_db_execute</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

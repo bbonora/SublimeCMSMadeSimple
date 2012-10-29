@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+{\$${1:startform}}
+<div class="pageoverflow">
+	<p class="pagetext">{\$${2:prompt_name}}</p>
+	<p class="pageinput">{\$${3:input_name}}</p>
+</div>
+
+<div class="pageoverflow">
+	<p class="pagetext">&nbsp;</p>
+	<p class="pageinput">{\$${4:submit}} {\$${5:cancel}} {\$${6:apply}}</p>
+</div>
+{\$${7:endform}}
+]]></content>
+	<description>form stub</description>
+	<tabTrigger>smarty_formstub</tabTrigger>
+	<!-- <scope>source.php</scope> -->
+</snippet>

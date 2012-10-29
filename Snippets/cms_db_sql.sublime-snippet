@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+${1:\$db}->sql;${0:}
+]]></content>
+	<description>db get sql</description>
+	<tabTrigger>cms_db_sql</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

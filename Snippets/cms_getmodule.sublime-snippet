@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+${1:\$mod} = cms_utils::get_module('${2:module_name}');
+]]></content>
+	<description>get module instance</description>
+	<tabTrigger>cms_getmod</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

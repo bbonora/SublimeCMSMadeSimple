@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+${1:\$config} = cmsms()->GetConfig();
+]]></content>
+	<description>get config var</description>
+	<tabTrigger>cms_getconfig</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

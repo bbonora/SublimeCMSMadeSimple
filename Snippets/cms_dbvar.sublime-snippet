@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$db = cmsms()->GetDb();
+]]></content>
+	<description>create db var</description>
+	<tabTrigger>cms_db</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

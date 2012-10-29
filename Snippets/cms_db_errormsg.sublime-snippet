@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+${1:\$db}->ErrorMsg();${0:}
+]]></content>
+	<description>db get ErrorMsg()</description>
+	<tabTrigger>cms_db_error</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

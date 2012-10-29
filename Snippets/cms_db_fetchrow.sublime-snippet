@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+${1:\$results}->FetchRow();${0:}
+]]></content>
+	<description>db FetchRow()</description>
+	<tabTrigger>cms_db_fetchrow</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

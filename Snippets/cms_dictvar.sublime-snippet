@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$dict = NewDataDictionary(\$db);
+]]></content>
+	<description>dict var</description>
+	<tabTrigger>cms_dict</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

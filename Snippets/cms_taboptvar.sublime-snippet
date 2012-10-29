@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$taboptarray = array('mysql' => 'TYPE=MyISAM');
+]]></content>
+	<description>taboptarray var</description>
+	<tabTrigger>cms_tabopt</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

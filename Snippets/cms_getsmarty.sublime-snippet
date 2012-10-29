@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+${1:\$smarty} = cms_utils::get_smarty();
+]]></content>
+	<description>get smarty</description>
+	<tabTrigger>cms_getsmarty</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

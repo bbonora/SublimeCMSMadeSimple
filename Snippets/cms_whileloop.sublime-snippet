@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+\$entryarray = array();
+while(${1:\$results} && \$row = ${2:\$results}->FetchRow())
+{
+	\$onerow = stdClass;
+	\$onerow->${3:name} = \$row['${4:name}'];
+	${0:}
+	\$entryarray[] = \$onerow;
+}
+]]></content>
+	<description>while loop</description>
+	<tabTrigger>cms_loop</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

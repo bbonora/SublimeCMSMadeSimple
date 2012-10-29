@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\$sqlarray = \$dict->CreateIndexSQL(cms_db_prefix().'${1:index_name}',
+				  cms_db_prefix().'${2:table_name}',
+				  '${3:column_name}');
+\$dict->ExecuteSQLArray(\$sqlarray);
+]]></content>
+	<description>create table index</description>
+	<tabTrigger>cms_createtabindex</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

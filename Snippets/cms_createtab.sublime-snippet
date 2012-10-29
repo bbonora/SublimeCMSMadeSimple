@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$sqlarray = \$dict->CreateTableSQL(cms_db_prefix()."${1:tablename}", 
+		\$flds, \$taboptarray);
+\$dict->ExecuteSQLArray(\$sqlarray);
+]]></content>
+	<description>create table</description>
+	<tabTrigger>cms_createtab</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
