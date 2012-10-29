@@ -53,6 +53,7 @@ $dict->ExecuteSQLArray($sqlarray);
 
 ###Smarty
 + **smarty_form** 
+
 ```
 {$startform}
 <div class="pageoverflow">
@@ -66,6 +67,7 @@ $dict->ExecuteSQLArray($sqlarray);
 </div>
 {$endform}
 ```
+
 + **smarty_table**
 ```
 <table cellspacing="0" class="pagetable">
@@ -100,13 +102,14 @@ $dict->ExecuteSQLArray($sqlarray);
 	</tbody>
 </table>
 ```
+
 + **smarty_foreach**
 ```
 {foreach from=$items key=key item=entry name=name}
 	{$entry->item}
-	
 {/foreach}
 ```
+
 Author
 ------
 **Ben Bonora**
