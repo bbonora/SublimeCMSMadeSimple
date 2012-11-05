@@ -7,16 +7,16 @@
 	{"trigger": "AdminStyle", "contents": "AdminStyle()"},
 	{"trigger": "AllowAutoInstall", "contents": "AllowAutoInstall()"},
 	{"trigger": "AllowAutoUpgrade", "contents": "AllowAutoUpgrade()"},
-	{"trigger": "Audit", "contents": "Audit(itemid, itemname, action)"},
+	{"trigger": "Audit", "contents": "Audit(${1:itemid}, ${2:itemname}, ${3:action})"},
 	{"trigger": "AllowUninstallCleanup", "contents": "AllowUninstallCleanup()"},
-	{"trigger": "CallUserTag", "contents": "CallUserTag(name, params = array())"},
+	{"trigger": "CallUserTag", "contents": "CallUserTag(${1:name}, ${2:params = array()})"},
 	{"trigger": "can_cache_output", "contents": "can_cache_output()"},
 	{"trigger": "CheckForDependents", "contents": "CheckForDependents()"},
 	{"trigger": "CheckPermission", "contents": "CheckPermission(permission_name)"},
 	{"trigger": "CreateContentLink", "contents": "CreateContentLink(pageid, contents)"},
 	{"trigger": "CreateEvent", "contents": "CreateEvent(${1:eventname})"},
 	{"trigger": "CreateFieldsetEnd", "contents": "CreateFieldsetEnd()"},
-	{"trigger": "CreateFieldsetStart", "contents": "CreateFieldsetStart(\\$id, ${1:name}, ${2:legend_text}, ${3:addtext}, ${4:addtext_legend})"},
+	{"trigger": "CreateFieldsetStart", "contents": "CreateFieldsetStart($id, ${1:name}, ${2:legend_text}, ${3:addtext}, ${4:addtext_legend})"},
 	{"trigger": "CreateFileUploadInput", "contents": "CreateFileUploadInput(\\$id, ${1:name}, ${2:addttext}, ${3:size}, ${4:maxlength})"},
 	{"trigger": "CreateFrontendFormStart", "contents": "CreateFrontendFormStart(${1:\\$id}, ${2:\\$returnid}, ${3:action}, ${4:method}, ${5:enctype}, ${6:inline}, ${7:idsuffix}, ${8:params = array()})"},
 	{"trigger": "CreateFrontendLink", "contents": "CreateFrontendLink(${1:\\$id}, ${2:\\$returnid}, ${3:action}, ${4:contents}, ${5:params = array()}, ${6:warn_message}, ${7:onlyhref}, ${8:inline}, ${9:addtext}, ${10:targetcontentonly}, ${11:prettyurl})"},
@@ -62,6 +62,7 @@
 	{"trigger": "create_url", "contents": "create_url(${1:\\$id}, ${2:action}, ${3:\\$returnid}, ${4:params = array()}, ${5:inline}, ${6:targetcontentonly}, ${7:prettyurl})"},
 	{"trigger": "DefaultLanguage", "contents": "DefaultLanguage()"},
 	{"trigger": "DeleteTemplate", "contents": "DeleteTemplate(${1:tpl_name}, ${2:modulename})"},
+	{"trigger": "DisplayImage", "contents": "DisplayImage(${1:imageName}, ${2:alt}, ${3:width}, ${4:height}, ${5:class})"},
 	{"trigger": "DoAction", "contents": "DoAction(${1:name}, ${2:\\$id}, ${3:params = array()}, ${4:\\$returnid})"},
 	{"trigger": "DoEvent", "contents": "DoEvent(originator, eventname, params = array())"},
 	{"trigger": "EndTab", "contents": "EndTab()"},
@@ -181,4 +182,3 @@
 	{"trigger": "WYSIWYGTextarea", "contents": "WYSIWYGTextarea(${1:name}, ${2:columns}, ${3:rows}, ${4:encoding}, ${6:content}, ${7:stylesheet}, ${8:addtext})"}
   ]
 }
-
